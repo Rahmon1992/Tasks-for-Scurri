@@ -1,7 +1,7 @@
 from ukpostcodes import validate
 
 # Using pytest for testing
-# Randomly generated postal codes: First 10 correct and another 10 with mistakes
+# Randomly generated postal codes: First 10 are correct and another 10 with mistakes
 def test_postcodes():
     assert validate.isValid('SA70 7EA') == True
     assert validate.isValid('WN5 7LU') == True
